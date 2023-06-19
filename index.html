@@ -29,15 +29,21 @@
             >Web<span class="logo-studio-link">Studio</span></a
           >
 
-          <ul class="list-nav list">
+          <!-- <ul class="list-nav list">
             <li><a class="link-menu current link" href="./index.html">Studio</a></li>
             <li>
               <a class="link-menu link" href="./portfolio.html">Portfolio</a>
             </li>
             <li><a class="link-menu link" href="">Contacts</a></li>
-          </ul>
+          </ul> -->
         </nav>
-        <address class="link-address">
+        <button typ="button" class="button-header js-open-menu">
+          <svg class="mobil-menu-open-icon" width="32" height="32"> 
+            <use href=""></use>
+
+          </svg>
+        </button>
+        <!-- <address class="link-address">
           <ul class="header-list list">
             <li>
               <a class="link-information link" href="./info@devstudio.com"
@@ -50,9 +56,19 @@
               >
             </li>
           </ul>
-        </address>
+        </address> -->
       </div>
-    </header>
+      <div class="modal-menu js-menu-container  ">
+      <div class="container mobil-menu-container">
+<button typ="button">
+  <svg></svg>
+
+</button>
+
+      </div> 
+    </div>
+    </header> 
+
     <main>
       <section class="title-section">
         <div class="container">
@@ -65,12 +81,12 @@
           <h2 class="visually-hidden">Our benefits</h2>
          <ul class="information-soc-list list">
              <li class="information-soc-item">
-              <div class="icons">
+              <!-- <div class="icons">
                  <svg class="information-icon" width="64" height="64" >
               <use href="./images/icons.svg#icon-antenna"></use>
             </svg>
              
-            </div>
+            </div> -->
             <h3 class="title-menu">Strategy</h3>
             <p class="paragraph">
               Our goal is to identify the business problem to walk away with
@@ -78,12 +94,12 @@
             </p>
           </li>
           <li class="information-soc-item">
-            <div class="icons">
+            <!-- <div class="icons">
                <svg class="information-icon" width="64" height="64" >
             <use href="./images/icons.svg#icon-clock"></use>
           </svg>
            
-          </div> 
+          </div> -->
           <h3 class="title-menu">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
@@ -91,12 +107,12 @@
               </p>
             </li>
             <li class="information-soc-item">
-              <div class="icons">
+              <!-- <div class="icons">
                  <svg class="information-icon" width="64" height="64" >
               <use href="./images/icons.svg#icon-diagram"></use>
             </svg>
              
-            </div> 
+            </div> -->
            
               <h3 class="title-menu">Diligence</h3>
               <p class="paragraph">
@@ -105,12 +121,12 @@
               </p>
             </li>
             <li class="information-soc-item">
-              <div class="icons">
+              <!-- <div class="icons">
                  <svg class="information-icon" width="64" height="64" >
               <use href="./images/icons.svg#icon-astronaut"></use>
             </svg>
              
-            </div> 
+            </div> -->
               <h3 class="title-menu">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
@@ -119,8 +135,8 @@
             </li>
           </ul>
        </div>
-      </section>
-      <!-- <section class="section-img">
+      </section >
+     <section class="section-img is-hidden ">
         <div class="container">
           <h2 class="subtitle-main-page">What are we doing</h2>
           <ul class="list-images list">
@@ -150,7 +166,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section> 
 
       <section class="section-team">
         <div class="container-photo container">
@@ -356,7 +372,7 @@
             </li>
             <li class="images-photo">
               <img
-               
+                class="images-photo"
                 src="./images/man3.jpg"
                 alt="man3"
                 width="264"
