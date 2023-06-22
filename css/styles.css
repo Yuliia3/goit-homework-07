@@ -265,6 +265,10 @@ font-weight: 700;
  .link-information-number :focus {
   color: var(--pressed-state);
 }
+.name-soc-list-modal {
+  display: flex;
+  gap: 34px;
+}
 
 
 .title-section {
@@ -342,10 +346,7 @@ font-weight: 700;
   margin-bottom: 8px;
 }
 .information-soc-list {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* gap: 24px; */
+ 
 }
 
 .information-soc-link {
@@ -377,6 +378,7 @@ font-weight: 700;
 
 .title-menu {
   text-align: center;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -1212,13 +1214,10 @@ padding-bottom: 96px;
      column-gap: 24px;
      width: 100%;
   }
-  .information-soc-item {
-    
-    width: calc((100% - 24px) / 2);
-  }
+ 
   .title-menu {
     
-   text-align: left;
+   text-align: center;
    font-weight: 700;
    font-size: 36px;
 line-height: 1.1;
