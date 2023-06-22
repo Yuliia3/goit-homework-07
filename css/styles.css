@@ -220,7 +220,7 @@ widows: 24px;height: 24px; */
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office.jpg);
+    url(../images/Dark--bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   block-size: cover;
@@ -232,17 +232,20 @@ widows: 24px;height: 24px; */
 }
 
 .main-page-title {
-  font-size: 56px;
-  line-height: 1.07;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-backround);
   margin-bottom: 48px;
   max-width: 496px;
   margin: 0% auto;
-  margin-bottom: 48px;
+  
+  margin-bottom: 88px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 .btn-order {
   font-family: "Roboto", sans-serif;
@@ -281,8 +284,8 @@ widows: 24px;height: 24px; */
 
 .information {
   background: var(--header-backround);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+ 
   gap: 24px;
 }
 
@@ -300,13 +303,13 @@ widows: 24px;height: 24px; */
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .information-soc-link {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .icons {
   margin-bottom: 8px;
@@ -342,7 +345,10 @@ widows: 24px;height: 24px; */
 }
 
 .paragraph {
-  font-weight: 400;
+  font-weight: 500;
+  
+  font-size: 16px;
+line-height: 1.5;
   margin-bottom: 72px;
  
 }
@@ -363,6 +369,7 @@ position: relative;
 }
 
 .closing {
+  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -813,6 +820,7 @@ text-align: center;
   color: var(--text);
 }
 .section-img {
+  display: none;
   padding-bottom: 120px;
 }
 .img-main-page {
@@ -1096,6 +1104,61 @@ border-color: var(--pimary-brand);
 @media screen and (min-width: 428px) 
   {
   .container {
-    max-width: 396px;
+    min-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
+
+
+@media screen and ( min-width: 768px) {
+  .container
+  
+   { 
+    width: 768px;
+    max-width:  1157px;
+    margin-left: auto;
+    margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;}
+  .information {
+padding-top: 96px;
+padding-bottom: 96px;
+  }
+
+  .information-soc-list {
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: row;
+        text-align: left;
+     row-gap: 64px;
+     column-gap: 24px;
+     width: 100%;
+  }
+  .information-soc-item {
+    
+    width: calc((100% - 24px) / 2);
+  }
+  .title-menu {
+    
+   text-align: left;
+   font-weight: 700;
+   font-size: 36px;
+line-height: 1.1;
+
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+     gap: 72px 24px;
+  }
+  .customers-icon-list {
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  }
+
