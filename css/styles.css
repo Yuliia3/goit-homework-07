@@ -264,9 +264,7 @@ color: var(--text);
 margin-bottom: 48px;
 
 }
-.modal-menu-list {
-  margin-bottom: 284px;
-}
+
 
 .link-information:hover {
   color: var(--pressed-state);
@@ -286,6 +284,7 @@ margin-bottom: 48px;
 .name-soc-list-modal {
   display: flex;
   gap: 34px;
+  margin-top: 48px;
 }
 
 
@@ -1248,7 +1247,7 @@ border-color: var(--pimary-brand);
   .header-list {
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
+   
   }
 
   .link-information {
