@@ -146,10 +146,10 @@ color: var(--pressed-state);
   stroke: #2e2f42;
 }
 
-.icon-modal-menu {
+/* .icon-modal-menu {
   position: absolute;
   
-}
+} */
 
 .navigation {
   display: flex;
@@ -1237,6 +1237,7 @@ border-color: var(--pimary-brand);
     padding-bottom: 122px;
   }
   .main-page-title {
+    max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
