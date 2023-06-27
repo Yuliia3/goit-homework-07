@@ -54,7 +54,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
+ height: 72px;
 }
 .modal-menu {
   opacity: 0;
@@ -147,8 +147,7 @@ color: var(--pressed-state);
 .navigation {
   display: flex;
   align-items: center;
-  margin-top: 24px; 
-  margin-bottom: 24px;
+ 
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -203,7 +202,7 @@ display: none;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.5;
- margin-top: 40px;
+ margin-bottom: 40px;
   
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -211,8 +210,8 @@ display: none;
    display: flex;
    align-items: center;
   
-   gap: 40px;
-   position: relative;
+  
+
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-menu-mobile.current  {
@@ -240,8 +239,7 @@ font-weight: 700;
   line-height: 1.1;
  
   letter-spacing: 0.02em;
-  padding-bottom: 24px;
-  padding-top: 24px;
+
   gap: 40px;
   display: flex;
   margin-left: auto;
@@ -307,7 +305,7 @@ margin-bottom: 48px;
   letter-spacing: 0.02em;
   color: var(--header-backround);
   margin-bottom: 48px;
-  max-width: 496px;
+  max-width: 320px;
   margin: 0% auto;
   
   margin-bottom: 88px;
@@ -392,8 +390,8 @@ margin-bottom: 48px;
   text-align: center;
 
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--image-backround);
   margin-bottom: 8px;
@@ -402,7 +400,7 @@ margin-bottom: 48px;
 
 .paragraph {
   font-weight: 500;
-  margin-bottom: 72px;
+ margin-bottom: 72px;
   font-size: 16px;
 line-height: 1.5;
  
@@ -497,7 +495,9 @@ position: relative;
 
 
 
-
+.social-link {
+  margin-bottom: 72px;
+}
 
 .container-page {
   padding-top: 32px;
@@ -665,7 +665,7 @@ position: relative;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
-margin-bottom: 72px;
+
   max-width: 268px;
   text-align: center;
 }
@@ -675,7 +675,7 @@ margin-bottom: 72px;
   gap: 16px;
 }
 .footer-soc-item {
-  margin-bottom: 72px;
+
   width: 40px;
   height: 40px;
 }
@@ -745,7 +745,7 @@ margin-bottom: 72px;
 }
 
 .web-logo {
-  
+  margin-bottom: 72px;
 text-align: center;
 }
 .footer-form {width: 100%;}
@@ -1219,12 +1219,12 @@ border-color: var(--pimary-brand);
  }
   .header-container {
     width: 100% ;
-    height: 72px;
+   
     display: flex;
  
   }
   .title-section {
-  max-width: 1140px;
+
     background-size: cover;
     margin: 0 auto;
     padding-top: 112px;
@@ -1265,7 +1265,13 @@ border-color: var(--pimary-brand);
       margin-left: 0;
     }
     
+  .social-link {
+    margin: 0;
   
+  }
+  .web-logo {
+    margin: 0;
+  }
   
     .list-nav {
      display: flex;
@@ -1287,6 +1293,9 @@ border-color: var(--pimary-brand);
     letter-spacing: 0.02em;
     color: var(--text-secondary);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   .paragraph {
+    margin: 0;
    }
 
     
@@ -1336,7 +1345,7 @@ border-color: var(--pimary-brand);
 .footer-box {
   display: flex;
   gap: 24px;
-  margin-bottom: 72px;
+ 
 }
 
 .footer-form {
@@ -1383,6 +1392,7 @@ text-align: left;
  }
  .paragraph-ft {
  text-align: left;
+ margin: 0;
  }
  .paragraph-form {
   display: flex;
@@ -1392,6 +1402,12 @@ text-align: left;
  }
  .footer-subscribe-form {
   margin: 0px;
+ }
+ .footer-soc-item {
+  margin: 0;
+ }
+ .closing-footer {
+  gap: 72px 24px;
  }
 }
 
@@ -1417,6 +1433,7 @@ text-align: left;
 .title-section {
   background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-desktop@2x.jpg);
 }
+
 } 
 
 
@@ -1527,11 +1544,7 @@ text-align: left;
   width: calc((100% - 120px) / 6);
 
 }
-.customers-icon-list {
-  width: 1158px;
- 
- 
-}
+
 .title-menu {
   font-weight: 500;
   font-size: 20px;
@@ -1549,6 +1562,7 @@ text-align: left;
 }
 .paragraph-ft {
 margin: 0;
+
 }
 .footer-box {
   margin: 0;
@@ -1567,6 +1581,22 @@ margin: 0;
   margin: 0;
 }
 
+.form-subscribe {
+  margin-left: 60px;
+}
+.social-link {
+  
+  margin-left: 80px;
+  
+}
+.paragraph-ft {
+ 
+  width: 264px;
+}
+.paragraph-social {display: flex;
+  justify-content: left;
+ 
+}
 }
 
 
