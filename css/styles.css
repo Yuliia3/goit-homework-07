@@ -37,7 +37,16 @@ img {
   width: 100%;
   max-width: 100%; height: auto;
 }
-
+.mobil-menu-container {
+  position: relative;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
 .container {
  min-width: 320px;
   padding-left: 16px;
@@ -136,9 +145,7 @@ color: var(--pressed-state);
   
   stroke: #2e2f42;
 }
-.mobil-menu-container {
-  position: fixed;
-}
+
 .icon-modal-menu {
   position: absolute;
   
@@ -421,11 +428,11 @@ position: relative;
   gap: 24px;
 }
 
-.closing {
+/* .closing {
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
-}
+} */
 .closing-footer {
  display: flex;
  flex-direction: column;
