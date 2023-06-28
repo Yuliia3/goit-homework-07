@@ -65,7 +65,7 @@
         <div class="container mobil-menu-container">
           <button type="button" class="menu-button js-close-menu">
             <svg class="icon-modal-menu" width="8" height="8">
-              <use href="/images/close.svg#icon-close-black"></use>
+              <use href="./images/close.svg#icon-close-black"></use>
             </svg>
           </button>
           <nav class="modal-menu-list">
@@ -81,7 +81,7 @@
           </nav>
 
           <address class="modal-link-adress">
-            <ul class="header-list list">
+            <ul class="header-list-modal list">
               <li>
                 <a class="link-information-number link" href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
@@ -250,8 +250,14 @@
           <h2 class="desc-menu">Our Team</h2>
           <ul class="team-list list">
             <li class="images-photo">
-           
-              <img src="./images/man1.jpg" alt="man1" width="264" />
+           <picture>
+            <source srcset="./images/man1.jpg 1x, ./images/man1/2x.jpg 2x"/>
+          
+              <img 
+              src="./images/man1.jpg"
+               alt="man1"
+                width="264" />
+            </picture>
               <div class="container-menu">
                 <h3 class="name">Mark Guerrero</h3>
 
@@ -308,7 +314,13 @@
               </div>
             </li>
             <li class="images-photo">
-              <img src="./images/man2.jpg" alt="man2" width="264" />
+              <picture>
+              <source srcset="./images/man2.jpg 1x, ./images/man2/2x.jpg 2x"/>
+              <img 
+              src="./images/man2.jpg"
+               alt="man2" 
+               width="264" />
+            </picture>
               <div class="container-menu">
                 <h3 class="name">Tom Ford</h3>
 
@@ -364,7 +376,14 @@
               </div>
             </li>
             <li class="images-photo">
-              <img src="./images/girl.jpg" alt="girl" width="264" />
+              <picture>
+                <source srcset="./images/girl.jpg 1x, ./images/girl2x/2x.jpg 2x"/>
+             
+              <img 
+              src="./images/girl.jpg"
+               alt="girl"
+                width="264" />
+            </picture>
               <div class="container-menu">
                 <h3 class="name">Camila Garcia</h3>
                 <p class="specialty">Marketing</p>
@@ -419,12 +438,15 @@
               </div>
             </li>
             <li class="images-photo">
-              <img
-                class="images-photo"
+              <picture>
+                <source srcset="./images/man3.jpg 1x, ./images/man3.2x/2x.jpg 2x"/>
+                <img
+                
                 src="./images/man3.jpg"
                 alt="man3"
                 width="264"
               />
+              </picture>
               <div class="container-menu">
                 <h3 class="name">Daniel Wilson</h3>
                 <p class="specialty">UI Designer</p>
